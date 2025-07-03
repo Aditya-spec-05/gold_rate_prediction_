@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: gold-rate-prediction
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run gold_rate_prediction.py
-    pythonVersion: 3.10.13
